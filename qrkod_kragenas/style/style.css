@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #bee0ee;
+}
+
+header {
+    order: 1;
+    height: 6%;
+    width: 100%;
+    display: flex;
+    background-color: #252b82;
+    color: white;
+}
+
+.kragenas {
+    order: 1;
+    height: 100%;
+    width: 25%;
+    background-image: url("../img/kragenaslogo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img {
+    order: 2;
+    width: 100%;
+    height: 33%;
+    background-size: cover;
+
+}
+
+.txt {
+    order: 3;
+    height: auto;
+    width: auto;
+    color: #a20e40;
+}
+
+h1 {
+    order: 2;
+    font-size: 125%;
+    width: 75%;
+    height: 100%;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    padding: 5%;
+}
+
+#kiosk {
+    background-image: url("../img/kiosken.jpg");
+}
+
+#hinderbana {
+    background-image: url("../img/hinderbanan.jpg");
+}
+
+#piren {
+    background-image: url("../img/piren.jpg");
+}
+
+#vindskyddet {
+    background-image: url("../img/vindskyddet.jpg");
+}
+
+#frysplan {
+    background-image: url("../img/frysplan.jpg");
+}
+
+#pannberg {
+    background-image: url("../img/pannbergstugan.jpg");
+}
+
+#havet {
+    background-image: url("../img/havet.jpg");
+}
+
+#brumbrum {
+    background-image: url("../img/frasig_karra.jpg");
+}
